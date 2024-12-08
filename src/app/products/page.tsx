@@ -220,7 +220,7 @@ const Page = () => {
                 onClick={() => handlePageChange(index + 1)}
                 className={`px-4 py-2 mx-1 ${
                   currentPage === index + 1
-                    ? "bg-gray-800 text-white"
+                    ? "bg-black text-white"
                     : "bg-gray-200"
                 }`}
               >

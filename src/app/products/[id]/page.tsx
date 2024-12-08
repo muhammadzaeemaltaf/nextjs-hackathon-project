@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ShoppingCart } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import { CartIcon2, Products } from "../../../../data";
