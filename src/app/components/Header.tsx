@@ -40,16 +40,16 @@ const Header = () => {
             <span>{TopLogo}</span>
 
             <div className="flex divide-x-[1px] divide-black text-[11px] h-[26px] items-center  md:w-[272.81px] justify-between">
-              <span className="flex-1 px-2 md:px-3 whitespace-nowrap">
+              <Link href={"/products"} className="flex-1 px-2 md:px-3 whitespace-nowrap">
                 Find a Store
-              </span>
-              <span className="flex-1 px-2 md:px-3 whitespace-nowrap">
+              </Link>
+              <Link href={"/contact"} className="flex-1 px-2 md:px-3 whitespace-nowrap">
                 Help
-              </span>
-              <span className="flex-1 px-2 md:px-3 whitespace-nowrap">
+              </Link>
+              <Link href={"/joinus"} className="flex-1 px-2 md:px-3 whitespace-nowrap">
                 Join Us
-              </span>
-              <span className="flex-1 pl-3 whitespace-nowrap">Sign In</span>
+              </Link>
+              <Link href={"/login"} className="flex-1 pl-3 whitespace-nowrap">Sign In</Link>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Header = () => {
       >
         <div className="container h-[60px] flex justify-between items-center  md:px-[40px]">
           <div className="logo scale-75 md:scale-100 -ml-2 md:ml-0">
-            <Link href={"/"}>{Logo}</Link>
+            <Link href={"/"} onClick={() => setIsMenuOpen(false)}>{Logo}</Link>
           </div>
           <div className="hidden lg:flex ml-40">
             <ul className="flex text-base gap-5">
@@ -89,15 +89,15 @@ const Header = () => {
                 />
               </div>
             </div>
-            <span>{HeartIcon}</span>
-            <span>{CartIcon}</span>
+            <span >{HeartIcon}</span>
+            <Link href={"/cart"} className="relative">{CartIcon}<span className="text-[10px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-0.5">2</span></Link>
             <button className="lg:hidden" onClick={toggleMenu}>
               ☰
             </button>
           </div>
         </div>
         {isMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg transition-transform duration-300 ease-in-out transform">
+          <div className="lg:hidden absolute top-full left-0 w-full z-10 bg-white shadow-lg transition-transform duration-300 ease-in-out transform">
             <div className="relative p-4">
               <span className="absolute top-1/2 -translate-y-1/2 left-7 ">
                 {SearchIcon}
@@ -112,7 +112,7 @@ const Header = () => {
               {HeaderLinks.map((link, index) => {
                 return (
                   <li key={index}>
-                    <Link href={link.link}>{link.title}</Link>
+                    <Link href={link.link} onClick={() => setIsMenuOpen(false)}>{link.title}</Link>
                   </li>
                 );
               })}

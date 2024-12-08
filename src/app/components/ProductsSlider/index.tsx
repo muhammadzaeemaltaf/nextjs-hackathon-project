@@ -25,7 +25,7 @@ const ProductSlider = ({
 }) => {
   return (
     <div className={`${half ? "w-full md:w-1/2" : "container"}`}>
-      <div className="py-16 space-y-5 relative">
+      <div className="md:py-16 space-y-5 relative">
         <div
           className={`mb-20 md:mb-0`}
         >
@@ -34,7 +34,7 @@ const ProductSlider = ({
 
         <div>
           {half ? (
-            <Carousel className="w-[96%]">
+            <Carousel className="w-full">
               <div className="flex gap-3  absolute right-5 -top-10">
                 <Link href={anchor} className="-mt-2.5 text-[15px] font-[500]">
                   {anchorText}

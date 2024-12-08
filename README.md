@@ -1,4 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nike-Themed E-Commerce Site
+
+This is a modern e-commerce site built with **Next.js** and **Tailwind CSS**, based on a Nike-themed Figma template. The project demonstrates responsive design, dynamic functionality, and a clean UI.
+
+## Features
+
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Modern UI:** Sleek and clean user interface inspired by the Nike brand.
+- **Fast Performance:** Built with Next.js for server-side rendering and optimized performance.
+- **Reusable Components:** Modular components styled with Tailwind CSS.
+- **Dynamic Functionality:** Interactive elements like product cards, carousels, and more.
+
+## Tech Stack
+
+- **Next.js**: A React framework for production-grade web applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Figma**: Used as a design reference for building the UI.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
 
 ## Getting Started
 

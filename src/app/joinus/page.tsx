@@ -16,8 +16,8 @@ export default function Login() {
   const [country, setCountry] = useState("India"); // Default value
 
   return (
-    <div className="min-w-[380px] mx-auto py-10 flex items-center justify-center">
-      <div className="px-8 rounded-lg w-full max-w-md">
+    <div className="max-w-[380px] mx-auto py-10 flex items-center justify-center">
+      <div className="px-4 md:px-8 rounded-lg w-full max-w-md">
         {/*The Nike Logo */}
         <div className="flex justify-center mb-4">{Logo}</div>
         {/*Our Heading */}
@@ -127,7 +127,7 @@ export default function Login() {
           {/*The Already Signed-In Link */}
           <div className="flex items-center justify-center gap-2 whitespace-nowrap text-[12px] text-[#8D8D8D]">
           Already a Member?{" "}
-            <Link href={"#"} className="underline text-black">
+            <Link href={"/login"} className="underline text-black">
             Sign In.
             </Link>
           </div>

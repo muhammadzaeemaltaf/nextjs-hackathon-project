@@ -33,7 +33,7 @@ export const Logo = (
 export const HeaderLinks = [
   {
     title: "New & Featured",
-    link: "#",
+    link: "/products",
   },
   {
     title: "Men",
@@ -225,8 +225,8 @@ export const CartIcon2 = (
       d="M0.823242 1.42676L3.33658 1.86176L4.5002 15.725C4.5449 16.2705 4.79364 16.7791 5.19679 17.1493C5.59993 17.5196 6.12785 17.7242 6.6752 17.7223H19.8581C20.3822 17.7229 20.8889 17.5343 21.285 17.191C21.681 16.8478 21.9398 16.3731 22.0138 15.8543L23.1617 7.93001C23.1923 7.71926 23.1811 7.50455 23.1286 7.29816C23.0762 7.09176 22.9836 6.89772 22.8561 6.72714C22.7286 6.55656 22.5687 6.41279 22.3856 6.30403C22.2025 6.19528 21.9998 6.12369 21.789 6.09334C21.7117 6.08488 3.74016 6.07884 3.74016 6.07884"
       stroke="white"
       strokeWidth="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M14.5684 10.5439H17.9191"
@@ -242,8 +242,8 @@ export const CartIcon2 = (
       fill="#272343"
       stroke="white"
       strokeWidth="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       fillRule="evenodd"
@@ -252,8 +252,8 @@ export const CartIcon2 = (
       fill="#272343"
       stroke="white"
       strokeWidth="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -318,8 +318,8 @@ export const DeliveredIcon = (
         d="M23.4538 10.9198L20.8077 3.41211H4.19228L1.60767 10.7352V22.4275H23.4538V10.9198ZM4.8692 4.33519H20.1307L22.2846 10.4275H2.71536L4.8692 4.33519ZM22.4692 21.566H2.53074V11.3506H22.5307L22.4692 21.566Z"
         fill="#111111"
         stroke="#111111"
-        stroke-width="0.692308"
-        stroke-linejoin="round"
+        strokeWidth="0.692308"
+        strokeLinejoin="round"
       />
       <path
         d="M16.1902 14.0578L16.0976 13.9587C15.8364 13.6794 15.3983 13.6647 15.119 13.9259C15.1158 13.929 15.1125 13.9321 15.1093 13.9352L11.15 17.7845L9.89079 16.5602C9.61665 16.2937 9.17835 16.2998 8.91182 16.574C8.90869 16.5772 8.90559 16.5804 8.90252 16.5837L8.80992 16.6828C8.55236 16.9582 8.56263 17.3891 8.83301 17.652L10.6674 19.4355C10.9361 19.6967 11.3639 19.6967 11.6326 19.4355L16.1671 15.027C16.4375 14.7641 16.4477 14.3332 16.1902 14.0578Z"

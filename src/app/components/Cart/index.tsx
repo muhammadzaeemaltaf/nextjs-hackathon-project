@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { DeleteIcon, HeartIcon, Products } from "../../../../data";
+import Link from "next/link";
 
 const Cart = () => {
   const product1 = Products.find(
@@ -89,7 +90,9 @@ const Cart = () => {
               <p className="font-medium">₹ 20,890.00</p>
             </div>
             <button className="w-full h-[60px] py-2 bg-black text-[15px] text-white font-medium rounded-full">
+              <Link href={"/checkout"}>
               Member Checkout
+              </Link>
             </button>
           </div>
         </div>

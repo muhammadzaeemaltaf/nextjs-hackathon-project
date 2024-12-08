@@ -29,8 +29,8 @@ const ReuseableFunction = ({
           />
         </div>
         <div className="flex flex-col gap-3 items-center">
-          <h1 className="text-2xl text-center md:text-[54px] font-[500] leading-[54px]">{heading}</h1>
-          <p className="text-[15px] text-center">
+          <h1 className="text-2xl text-center md:text-[54px] font-[500] leading-[24px] md:mt-10">{heading}</h1>
+          <p className="text-[15px] text-center md:mt-6">
            {paragraph}
           </p>
           <Button className="bg-black rounded-full mt-3">{buttonText}</Button>

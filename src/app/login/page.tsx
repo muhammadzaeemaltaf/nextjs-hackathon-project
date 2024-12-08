@@ -57,7 +57,7 @@ const page = () => {
             </Button>
             <div className="flex items-center justify-center gap-2 whitespace-nowrap text-[12px] text-[#8D8D8D]">
               Not a Member?{" "}
-              <Link href={"#"} className="underline text-black">
+              <Link href={"/joinus"} className="underline text-black">
                 Join Us.
               </Link>
             </div>

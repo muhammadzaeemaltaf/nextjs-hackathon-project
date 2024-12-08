@@ -36,7 +36,7 @@ const HomePage = () => {
         <div>
           <h1 className="text-[23px] font-[500]">Gear Up</h1>
         </div>
-        <div className="flex flex-col md:flex-row gap-6">
+        <div className="flex flex-col md:flex-row md:gap-6">
           <ProductSlider
             anchor="/shop"
             anchorText="Shop Men's"
