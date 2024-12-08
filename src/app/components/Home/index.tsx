@@ -53,7 +53,7 @@ const HomePage = () => {
       </div>
       <ReuseableFunction
           title="Don't Miss"
-          image="/dontMiss.png"
+          image="/dontMiss.jpg"
           heading="FLIGHT ESSENTIALS"
           paragraph=" Your built-to-last, all-week wears—but with style only Jordan Brand can deliver."
           buttonText="Shop"
